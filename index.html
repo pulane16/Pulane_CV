@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My CV Website</title>
+
+<style>
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+/* HEADER */
+header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid white;
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
+/* NAVIGATION */
+nav{
+    background:#111827;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    list-style:none;
+}
+
+nav ul li{
+    margin:10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    display:block;
+}
+
+nav ul li a:hover{
+    background:#2563eb;
+    border-radius:5px;
+}
+
+/* MAIN */
+main{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* SECTIONS */
+section{
+    background:white;
+    margin:20px 0;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color:#1e3a8a;
+    margin-bottom:15px;
+}
+
+/* ARTICLES */
+article{
+    margin-bottom:20px;
+}
+
+/* SKILLS */
+#skills ul{
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+#skills ul li{
+    background:#2563eb;
+    color:white;
+    padding:10px 15px;
+    border-radius:20px;
+}
+
+/* FOOTER */
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+/* RESPONSIVE */
+@media (max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    #skills ul{
+        justify-content:center;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <img src="images/image1 (2).jpeg" alt="Profile Picture">
+
+    <h1>Pulane Makhotla</h1>
+
+    <p>Web Developer | IT Student | Designer</p>
+
+</header>
+
+<nav>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+<main>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a passionate and hardworking individual interested in
+            technology and web development. I enjoy creating responsive
+            websites and learning new programming skills.
+        </p>
+
+    </section>
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <article>
+
+            <h3>University of Johannesburg</h3>
+
+            <p>Bachelor of Arts in Economics and Politics</p>
+
+            <p>2020 - 2023</p>
+
+        </article>
+		
+		<article>
+			<h3>Qedilizwe Secondary School</h3>
+			
+			<p>Matric</p>
+			
+			<p>2014 - 2018</p>
+			
+		<article</>
+
+    </section>
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Attention to detail</li>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+        </ul>
+
+    </section>
+
+    <section id="experience">
+
+        <h2>Experience</h2>
+
+        <article>
+
+            <h3>Systems Development Learner</h3>
+
+            <p>Dynamic DNA | Feb 2026 - Present</p>
+
+            <p>
+                Learning how Systems Development works and how to support digital
+                projects within a team environment.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3>Freelance Projects</h3>
+
+            <p>Feb 2026 - Present</p>
+
+            <p>
+                Built responsive websites using HTML and CSS.
+            </p>
+
+        </article>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Email: pulane01@outlook.com</p>
+
+        <p>Phone: 063 277 6213</p>
+
+        <p>Location: Johannesburg, South Africa</p>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 Pulane Makhotla. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
